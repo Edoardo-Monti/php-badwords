@@ -5,6 +5,10 @@ $cognome= $_GET['cognomePerson'];
 $text= $_GET['text'];
 
 // echo str_replace(" ", '-', $text);
+
+explode(' ', $text);
+
+var_dump(explode(' ', $text))
 ?>
 
 
