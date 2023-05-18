@@ -14,10 +14,13 @@
     <form action="arrivo.php" method="get">
         <div>
             <label for="">Nome</label>
-            <input type="text" placeholder="Inserisci il tuo nome">
+            <input type="text" placeholder="Inserisci il tuo nome" name="nomePerson">
 
             <label for="">Cognome</label>
-            <input type="text" placeholder="Inserisci il tuo cognome">
+            <input type="text" placeholder="Inserisci il tuo cognome" name="cognomePerson">
+
+            <label for="">Paragrafo</label>
+            <input type="text" placeholder="scrivi qualcosa" name="text">
 
             <button type="submit">Send Form</button>
         </div>
