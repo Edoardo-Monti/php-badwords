@@ -22,6 +22,9 @@
             <label for="">Paragrafo</label>
             <input type="text" placeholder="scrivi qualcosa" name="text">
 
+            <label for="">Parola da Censurare</label>
+            <input type="text" placeholder="Inserisci la parola" name="censura">
+
             <button type="submit">Send Form</button>
         </div>
     </form>

@@ -3,12 +3,13 @@
 $name= $_GET['nomePerson'];
 $cognome= $_GET['cognomePerson'];
 $text= $_GET['text'];
+$censura= $_GET['censura'];
 
 // echo str_replace(" ", '-', $text);
 
 explode(' ', $text);
 
-var_dump(explode(' ', $text))
+var_dump(explode(' ', $text));
 ?>
 
 
@@ -30,6 +31,9 @@ var_dump(explode(' ', $text))
 
     <!-- stampa del testo con gli spazzi  -->
     <h3>il tuo testo:  <?php echo str_replace(" ", ' - ', $text)?></h3>
+
+    <!-- stampa del testo con parola inserita nel form da censurare -->
+    <h3>il tuo testo:  <?php echo str_replace($censura, '***', $text)?></h3>
 
 
 </body>
